@@ -20,3 +20,14 @@ function checkPalindrome() {
         resultElement.style.color = 'red';
     }
 }
+
+
+
+// PARI E DISPARI
+
+function playGame() {
+    const userChoice = prompt("Scegli 'pari' o 'dispari':").toLowerCase();
+    if (userChoice !== 'pari' && userChoice !== 'dispari') {
+        alert("Scelta non valida. Per favore, scegli 'pari' o 'dispari'.");
+        return;
+    }
