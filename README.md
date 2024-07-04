@@ -14,3 +14,22 @@ Errori da evitare
 Consigli del giorno
 Scriviamo sempre in italiano i passaggi che vogliamo fare
 Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
+
+
+PALINDROMA
+
+Dichiarare una funzione checkPalindrome
+dichiarare una costante word e assegnarne il valore
+dichiarare una costante lunghezza = lunghezza parola
+dichiarare una variabile isPalindrome = true
+
+creo un ciclo for con un contatore
+Se word[i] diverso dalla lunghezza della parola - 1 - i 
+    Allora la parola non e' palindroma
+
+dichiaro una costante risultato
+Se isPalindrome
+
+allora la parola e' palindroma
+
+altrimenti la parola non e' palindroma
