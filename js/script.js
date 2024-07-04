@@ -47,3 +47,16 @@ function playGame() {
         <p>Numero del computer: ${computerNumber}</p>
         <p>Somma: ${sum} (${result})</p>
     `;
+
+    if (userChoice === result) {
+        resultElement.innerHTML += "<p>Hai vinto!</p>";
+        resultElement.style.color = 'green';
+    } else {
+        resultElement.innerHTML += "<p>Hai perso!</p>";
+        resultElement.style.color = 'red';
+    }
+}
+
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
