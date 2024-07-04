@@ -31,3 +31,8 @@ function playGame() {
         alert("Scelta non valida. Per favore, scegli 'pari' o 'dispari'.");
         return;
     }
+    const userNumber = parseInt(prompt("Inserisci un numero da 1 a 5:"));
+    if (isNaN(userNumber) || userNumber < 1 || userNumber > 5) {
+        alert("Numero non valido. Per favore, inserisci un numero da 1 a 5.");
+        return;
+    }
