@@ -36,3 +36,14 @@ function playGame() {
         alert("Numero non valido. Per favore, inserisci un numero da 1 a 5.");
         return;
     }
+    const computerNumber = getRandomNumber(1, 5);
+    const sum = userNumber + computerNumber;
+    const result = (sum % 2 === 0) ? 'pari' : 'dispari';
+
+    const resultElement = document.getElementById('result');
+    resultElement.innerHTML = `
+        <p>Hai scelto: ${userChoice}</p>
+        <p>Il tuo numero: ${userNumber}</p>
+        <p>Numero del computer: ${computerNumber}</p>
+        <p>Somma: ${sum} (${result})</p>
+    `;
