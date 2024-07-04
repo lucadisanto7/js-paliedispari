@@ -33,3 +33,36 @@ Se isPalindrome
 allora la parola e' palindroma
 
 altrimenti la parola non e' palindroma
+
+
+
+PARI E DISPARI 
+
+Dichiaro una funzione 
+dichiaro una costante che verifica il numero scelto dall'utente 
+Se il numero non e' ne pari ne dispari
+    allora
+    inserisci un altro numero
+Dichiaro una costante con parseint per far inserire un numero da 1 a 5
+Se il numero non e' compreso o uguale tra 1 e 5
+    allora
+    inserisci un altro numero
+
+Dichiaro una costante per il numero del computer compreso tra 1 e 5
+dichiaro una costante somma data dalla somma tra il numero dell utente e del computer
+dicchiaro una costante risultato 
+    SE il resto della somma = 0
+        allora 
+        risultato = pari
+        altrimenti
+        risultato = dispari
+
+dichiaro una costante risultato dell'elemento
+
+Se la scelta dell'utente e' uguale al risultato 
+    allora
+    vince l'utente
+    altrimenti 
+    vince il computer
+Dichiaro una funzione getRandomNumber
+return mathfloor * (max - min + 1) + min
