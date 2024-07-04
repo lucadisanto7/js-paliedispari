@@ -1,3 +1,5 @@
+// PALINDROMA
+
 function checkPalindrome() {
     const word = document.getElementById('wordInput').value;
     const len = word.length;
